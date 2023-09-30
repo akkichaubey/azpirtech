@@ -1,0 +1,70 @@
+:is(textarea, .input) {
+  outline: none;
+  resize: none;
+  box-shadow: none;
+  &[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+}
+select {
+  outline: none;
+  resize: none;
+  box-shadow: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("../images/icons/dwon-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center right 16px;
+  padding-right: 34px;
+  &::-ms-expand {
+    display: none;
+  }
+  &:focus::-ms-value {
+    background-color: transparent;
+  }
+}
+
+.form-control::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+input::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.form-control:-moz-placeholder {
+  opacity: 1;
+}
+
+input:-moz-placeholder {
+  opacity: 1;
+}
+
+.form-control::-moz-placeholder {
+  opacity: 1;
+}
+
+input::-moz-placeholder {
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  opacity: 1;
+}
+
+input:-ms-input-placeholder {
+  opacity: 1;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+input:focus {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
