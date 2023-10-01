@@ -8,9 +8,9 @@
     <!-- header -->
     <?php include("include/header.php"); ?>
     <!-- header -->
-    <div class="container" style="height: 1000px; background: red;">
+    <!-- <div class="container" style="height: 1000px; background: red;">
         <h1>Test</h1>
-    </div>
+    </div> -->
     <!--footer-->
     <?php include("include/footer.php"); ?>
     <!--footer-->

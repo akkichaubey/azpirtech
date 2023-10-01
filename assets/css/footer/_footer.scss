@@ -1,0 +1,121 @@
+.footer-wrap {
+  background: $primary;
+  :is(p, a, h3) {
+    font-size: 18px;
+    color: $white;
+    font-weight: 500;
+  }
+  .block-title {
+    font-size: 33px;
+    line-height: 1.3;
+    font-weight: 600;
+  }
+  .footer-logo {
+    padding: 0 0 14px;
+    a {
+      display: inline-block;
+      img {
+        max-width: 263px;
+        @include transition(all 0.3s ease-in-out);
+      }
+    }
+  }
+  .social {
+    padding: 14px 0 0;
+  }
+  .block {
+    &.block-about {
+      max-width: 344px;
+      flex-shrink: 0;
+      padding-right: 70px;
+    }
+  }
+  .column-wrap {
+    margin: 0 -15px -30px;
+    > li {
+      padding: 0 15px 30px;
+    }
+  }
+  .footer-link {
+    padding: 27px 0 0;
+    li {
+      &:not(:last-child) {
+        padding: 0 0 14px;
+      }
+      a {
+        gap: 12px;
+        display: inline-flex;
+        align-items: center;
+        &:hover {
+          color: $secondary;
+        }
+      }
+    }
+  }
+  footer {
+    .footer-top {
+      padding: 70px 0 40px;
+    }
+    .footer-bottom {
+      padding: 25px 0;
+      border-top: 1px solid rgba($white, 0.1);
+      .copyrights {
+        margin: 0;
+        a {
+          color: currentColor;
+          &:hover {
+            color: $secondary;
+          }
+          &.design-by {
+            color: $secondary;
+          }
+        }
+      }
+    }
+  }
+  @include breakpoint(max, 1280) {
+    .block-title {
+      font-size: 30px;
+    }
+  }
+  @include breakpoint(max, 991) {
+    footer {
+      .footer-top {
+        padding: 50px 0 40px;
+      }
+    }
+    .block-wrap {
+      flex-direction: column;
+      .block {
+        &.block-about {
+          width: 100%;
+          max-width: 100%;
+          padding: 0 0 30px;
+        }
+      }
+    }
+  }
+  @include breakpoint(max, 767) {
+    .footer-logo {
+      a {
+        img {
+          max-width: 200px;
+        }
+      }
+    }
+    .block-title {
+      font-size: 26px;
+    }
+    .footer-link {
+      padding: 15px 0 0;
+      li:not(:last-child) {
+        padding: 0 0 10px;
+      }
+    }
+    footer {
+      .footer-top {
+        padding: 40px 0;
+      }
+    }
+  }
+}
