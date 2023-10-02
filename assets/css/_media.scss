@@ -1,0 +1,97 @@
+@include breakpoint(max, 1280) {
+  h1,
+  .h1 {
+    font-size: 90px;
+  }
+  h2,
+  .h2 {
+    font-size: 48px;
+  }
+  .about {
+    padding: 70px 0;
+  }
+}
+
+@include breakpoint(max, 991) {
+  h1,
+  .h1 {
+    font-size: 70px;
+  }
+  h2,
+  .h2 {
+    font-size: 38px;
+  }
+  .slick-arrow {
+    width: 60px;
+    height: 60px;
+    .icon {
+      width: 15px;
+      height: 28px;
+    }
+  }
+  .about {
+    padding: 50px 0;
+  }
+}
+
+@include breakpoint(max, 767) {
+  h1,
+  .h1 {
+    font-size: 45px;
+  }
+  h2,
+  .h2 {
+    font-size: 32px;
+  }
+  .title {
+    .sub-title {
+      font-size: 26px;
+    }
+  }
+
+  .slick-arrow {
+    width: 40px;
+    height: 40px;
+    .icon {
+      width: 10px;
+      height: 17px;
+    }
+  }
+  .btn {
+    font-size: 20px;
+    &.btn-lg {
+      padding: 14px 50px;
+    }
+  }
+
+  .banner-slide {
+    padding: 70px 0;
+    .banner-info {
+      .sub-title {
+        font-size: 18px;
+        padding: 10px 20px;
+      }
+      .banner-title {
+        padding: 25px 0 0;
+      }
+      .btn-wrap {
+        padding: 35px 0 0;
+      }
+    }
+  }
+  .about {
+    padding: 40px 0;
+    .content-box {
+      padding: 0 0 25px;
+    }
+    .img-box {
+      padding: 20px 20px 0 20px;
+      .secondary {
+        width: 25%;
+        height: 27%;
+        min-width: 100px;
+        min-height: 100px;
+      }
+    }
+  }
+}

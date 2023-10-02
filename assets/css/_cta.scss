@@ -1,0 +1,70 @@
+.btn {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+  color: $white;
+  border: 0;
+  padding: 19px 66px;
+  text-transform: uppercase;
+  @include border-radius(4px);
+  @include transition(all 0.3s ease-in-out);
+  &.btn-lg {
+    padding: 19px 60px;
+  }
+  &.btn-sm {
+    padding: 16px 67px;
+  }
+  &.btn-primary {
+    background: $primary;
+    &:is(:hover, :focus, :active) {
+      background: $secondary;
+    }
+  }
+  &.btn-secondary {
+    background: $secondary;
+    &:is(:hover, :focus, :active) {
+      background: $primary;
+    }
+  }
+}
+.btn-link {
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  padding: 2px 0;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    background: currentColor;
+  }
+  .icon {
+    margin-left: 14px;
+    @include transition(all 0.3s ease-in-out);
+  }
+  &:is(:hover, :focus, :active) {
+    .icon {
+      margin-left: 18px;
+    }
+  }
+  &.primary {
+    color: $primary;
+    &:is(:hover, :focus, :active) {
+      color: $secondary;
+    }
+  }
+  &.secondary {
+    &:is(:hover, :focus, :active) {
+      color: $primary;
+    }
+  }
+}

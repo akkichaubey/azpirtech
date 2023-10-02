@@ -58,10 +58,10 @@ body {
 	height: 100%;
 	min-height: 100%;
 	font-size: 18px;
-	line-height: 1.55;
-	font-weight: 400;
+	line-height: 1.7;
+	font-weight: 500;
+	color: #333;
 	background: $white;
-	color: $secondary;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
 	-webkit-tap-highlight-color: transparent;
@@ -119,20 +119,21 @@ h6,
 .h6 {
 	margin: 0;
 	padding: 0;
-	font-weight: 600;
+	font-weight: 700;
 	line-height: 1.5;
 	color: #212425;
 }
 
 h1,
 .h1 {
-	font-size: 52px;
-	line-height: 1.153;
+	font-size: 107px;
+	line-height: 1;
 }
 
 h2,
 .h2 {
-	font-size: 42px;
+	font-size: 50px;
+	line-height: 0.98;
 }
 
 h3,
@@ -161,4 +162,22 @@ h6,
 	max-width: 1170px;
 	padding: 0 15px;
 	margin: 0 auto;
+}
+
+.transition {
+	@include transition(all 0.3s ease-in-out);
+}
+
+.slick-arrow {
+	width: 84px;
+	height: 84px;
+	display: grid;
+	place-items: center;
+	border: 0;
+	color: $white;
+	background: rgba($secondary, 0.6);
+	&:is(:hover, :focus, :active) {
+		color: $white;
+		background: $secondary;
+	}
 }

@@ -1,6 +1,7 @@
 jQuery(window).on('load scroll', function () {
 	AOS.init({
 		 once: true,
+		 duration: 900,
 	});
 });
 
@@ -19,4 +20,17 @@ jQuery( document ).ready( function () {
 		jQuery('.bg-overlay').toggleClass('active');
     jQuery('body').toggleClass('overflow-hidden');
 	})
+});
+
+// hero banner
+jQuery('.hero-slider').slick({
+	infinite: true,
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	speed: 900,
+	autoplay: true,
+	autoplaySpeed: 3000,
+	pauseOnHover:false,
+	prevArrow: jQuery('.home-prev'),
+	nextArrow: jQuery('.home-next'),
 });

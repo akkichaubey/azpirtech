@@ -17,5 +17,6 @@
 
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/slick.min.css">
 <link rel="stylesheet" type="text/css" href="assets/css/aos.css">
 <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
