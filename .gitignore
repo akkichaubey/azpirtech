@@ -1,0 +1,47 @@
+# Ignore operating system files and directories
+.DS_Store
+Thumbs.db
+
+# Ignore Node.js specific files and directories
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore build artifacts and compiled code
+dist/
+build/
+*.log
+
+# Ignore editor and IDE specific files and directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore configuration files with sensitive information
+config.json
+secrets.json
+
+# Ignore compiled binary files
+*.exe
+*.dll
+*.so
+
+# Ignore log files
+*.log
+
+# Ignore backup files created by editors
+*~
+
+# Ignore package-lock.json for npm
+package-lock.json
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore ZIP files
+*.zip
