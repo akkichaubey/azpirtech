@@ -1,3 +1,10 @@
+@include breakpoint(min, 1281) {
+  .inner-banner {
+    .banner-title {
+      font-size: 52px;
+    }
+  }
+}
 @include breakpoint(max, 1280) {
   h1,
   .h1 {
@@ -8,6 +15,22 @@
     font-size: 48px;
   }
   .about {
+    padding: 70px 0;
+  }
+  .counter {
+    padding: 0 0 70px;
+    &.home {
+      padding: 70px 0;
+    }
+  }
+  .portfolio {
+    &.home {
+      .title-section {
+        padding: 80px 0 150px;
+      }
+    }
+  }
+  .why-choose {
     padding: 70px 0;
   }
 }
@@ -31,6 +54,36 @@
   }
   .about {
     padding: 50px 0;
+  }
+  .counter {
+    padding: 0 0 50px;
+    &.home {
+      padding: 50px 0;
+    }
+  }
+  .inner-banner {
+    padding: 90px 0 90px;
+  }
+  .portfolio {
+    &.home {
+      .title-section {
+        padding: 50px 0 120px;
+      }
+    }
+  }
+  .why-choose {
+    padding: 50px 0;
+    .content-box {
+      .title {
+        padding: 0 0 15px;
+      }
+      .box {
+        padding: 10px 15px;
+        &:not(:last-child) {
+          margin: 0 0 15px;
+        }
+      }
+    }
   }
 }
 
@@ -63,6 +116,16 @@
       padding: 14px 50px;
     }
   }
+  .btn-link {
+    &.btn-lg {
+      font-size: 22px;
+      .icon {
+        margin-left: 10px;
+        width: 23px;
+        height: 11px;
+      }
+    }
+  }
 
   .banner-slide {
     padding: 70px 0;
@@ -91,6 +154,66 @@
         height: 27%;
         min-width: 100px;
         min-height: 100px;
+      }
+    }
+  }
+  .service {
+    &.home {
+      .title-section {
+        padding: 40px 0 100px;
+      }
+    }
+  }
+  .counter {
+    padding: 0 0 35px;
+    .counter-box {
+      h3 {
+        font-size: 50px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+    &.home {
+      padding: 35px 0;
+    }
+  }
+  .inner-banner {
+    padding: 50px 0;
+    &::after {
+      right: -71px;
+      background-image: radial-gradient(rgba(0, 0, 0, 0.12) 2px, transparent 0);
+    }
+  }
+
+  .portfolio-box {
+    .btn-link-wrap {
+      padding: 10px 0 0;
+    }
+  }
+
+  .portfolio {
+    &.home {
+      .title-section {
+        padding: 40px 0 100px;
+      }
+      .slider-wrap {
+        margin: -110px 0 0;
+        .arrow-wrap {
+          padding: 10px 0 20px;
+        }
+      }
+    }
+  }
+  .why-choose {
+    padding: 40px 0;
+    .content-box {
+      max-width: 100%;
+      padding: 0 0 30px;
+      .box {
+        h3 {
+          font-size: 20px;
+        }
       }
     }
   }

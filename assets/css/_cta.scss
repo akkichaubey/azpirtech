@@ -51,6 +51,14 @@
     margin-left: 14px;
     @include transition(all 0.3s ease-in-out);
   }
+
+  &.btn-lg {
+    font-size: 30px;
+    .icon {
+      margin-left: 22px;
+    }
+  }
+
   &:is(:hover, :focus, :active) {
     .icon {
       margin-left: 18px;
@@ -63,8 +71,23 @@
     }
   }
   &.secondary {
+    color: $secondary;
     &:is(:hover, :focus, :active) {
       color: $primary;
     }
+  }
+}
+
+.btn-arrow {
+  width: 55px;
+  height: 55px;
+  display: grid;
+  place-items: center;
+  color: $white;
+  background: $secondary;
+  @include border-radius(100%);
+  &:is(:hover, :focus, :active) {
+    color: $white;
+    background: $primary;
   }
 }

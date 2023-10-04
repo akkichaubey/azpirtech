@@ -111,4 +111,9 @@
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/slick.min.js"></script>
 <script src="assets/js/aos.js"></script>
+<!-- counter up -->
+<script src="assets/js/waypoints.min.js"></script>
+<script src="assets/js/jquery.counterup.min.js"></script>
+<!-- counter up -->
+
 <script src="assets/js/custom.js"></script>

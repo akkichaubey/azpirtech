@@ -85,7 +85,7 @@
               <div class="sub-title" data-aos="fade-up">We Provide digital services</div>
               <h2 class="h2" data-aos="fade-up" data-aos-delay="100">Services We're offering</h2>
             </div>
-            <div class="btn-wrap" data-aos="fade-up">
+            <div class="btn-wrap d-none d-md-block" data-aos="fade-up">
               <a href="#" class="btn btn-sm btn-primary">View All</a>
             </div>
           </div>
@@ -94,12 +94,12 @@
       <div class="container">
         <div class="service-list">
           <ul class="row">
-            <div class="col-lg-3">
-              <div class="service-box">
+            <li class="col-lg-3 col-sm-6">
+              <div class="service-box" data-aos="fade-up">
                 <div class="service-icon">
                   <img src="./assets/images/service-1.png" alt="service">
                 </div>
-                <h3>Website Design and Development</h3>
+                <h3 class="service-title">Website Design and Development</h3>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque ..</p>
                 <div class="btn-link-wrap">
                   <a href="#" class="btn-link primary">Read More <svg class="icon" width="16" height="11">
@@ -107,15 +107,250 @@
                   </svg></a>
                 </div>
               </div>
-            </div>
+            </li>
+            <li class="col-lg-3 col-sm-6">
+              <div class="service-box" data-aos="fade-up">
+                <div class="service-icon">
+                  <img src="./assets/images/service-1.png" alt="service">
+                </div>
+                <h3 class="service-title">Website Design and Development</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque ..</p>
+                <div class="btn-link-wrap">
+                  <a href="#" class="btn-link primary">Read More <svg class="icon" width="16" height="11">
+                    <use xlink:href="./assets/images/icons/svgsprit.svg#arrow-right"></use>
+                  </svg></a>
+                </div>
+              </div>
+            </li>
+            <li class="col-lg-3 col-sm-6">
+              <div class="service-box" data-aos="fade-up">
+                <div class="service-icon">
+                  <img src="./assets/images/service-1.png" alt="service">
+                </div>
+                <h3 class="service-title">Website Design and Development</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque ..</p>
+                <div class="btn-link-wrap">
+                  <a href="#" class="btn-link primary">Read More <svg class="icon" width="16" height="11">
+                    <use xlink:href="./assets/images/icons/svgsprit.svg#arrow-right"></use>
+                  </svg></a>
+                </div>
+              </div>
+            </li>
+            <li class="col-lg-3 col-sm-6">
+              <div class="service-box" data-aos="fade-up">
+                <div class="service-icon">
+                  <img src="./assets/images/service-1.png" alt="service">
+                </div>
+                <h3 class="service-title">Website Design and Development</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque ..</p>
+                <div class="btn-link-wrap">
+                  <a href="#" class="btn-link primary">Read More <svg class="icon" width="16" height="11">
+                    <use xlink:href="./assets/images/icons/svgsprit.svg#arrow-right"></use>
+                  </svg></a>
+                </div>
+              </div>
+            </li>
           </ul>
         </div>
-        <div class="btn-wrap text-center" data-aos="fade-up">
+        <div class="btn-wrap text-center d-md-none" data-aos="fade-up">
           <a href="#" class="btn btn-sm btn-secondary">View All</a>
         </div>
       </div>
     </div>   
-    <!-- service -->   
+    <!-- service -->
+
+    <!-- counter -->
+    <div class="section home counter">
+      <div class="container">
+        <div class="title">
+          <div class="sub-title" data-aos="fade-up">Completed stories!</div>
+          <h2 class="h2" data-aos="fade-up" data-aos-delay="100">Check some of our counter</h2>
+        </div>
+        <div class="counter-list">
+          <ul class="row">
+            <li class="col-md-3 col-sm-6">
+              <div class="counter-box" data-aos="fade-up">
+                <h3><span class="count">1250</span><sup>+</sup></h3>
+                <p>Project Completed</p>
+              </div>
+            </li>
+            <li class="col-md-3 col-sm-6">
+              <div class="counter-box" data-aos="fade-up">
+                <h3><span class="count">548</span><sup>+</sup></h3>
+                <p>Happy Clients</p>
+              </div>
+            </li>
+            <li class="col-md-3 col-sm-6">
+              <div class="counter-box" data-aos="fade-up">
+                <h3><span class="count">356</span><sup>+</sup></h3>
+                <p>Cup Of Coffee</p>
+              </div>
+            </li>
+            <li class="col-md-3 col-sm-6">
+              <div class="counter-box" data-aos="fade-up">
+                <h3><span class="count">8</span><sup>+</sup></h3>
+                <p>Years of Experience</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>   
+    <!-- counter -->
+
+    <!-- portfolio -->
+    <div class="section home portfolio">
+      <div class="title-section" style="background-image: url(./assets/images/recent-portfolio-bg.jpg);">
+        <div class="container">
+          <div class="title">
+            <div class="sub-title" data-aos="fade-up">Recent Portfolio</div>
+            <h2 class="h2" data-aos="fade-up" data-aos-delay="100">We're Delivering only<br> 
+              expectional Quality Work
+              </h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="slider-wrap">
+          <div class="arrow-wrap">
+            <button class="arrow portfolio-prev">
+              <svg class="icon" width="33" height="23">
+                <use xlink:href="./assets/images/icons/svgsprit.svg#arrow-left"></use>
+              </svg>
+            </button>
+            <button class="arrow portfolio-next">
+              <svg class="icon" width="33" height="23">
+                <use xlink:href="./assets/images/icons/svgsprit.svg#arrow-right"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="portfolio-slider">
+            <div class="item">
+              <div class="portfolio-box">
+                <div class="img-box">
+                  <img src="./assets/images/portfolio-1.jpg" alt="portfolio">
+                  <div class="overlay">
+                    <div class="btn-wrap">
+                      <a href="#" class="btn-arrow">
+                        <svg class="icon" width="14" height="23">
+                          <use xlink:href="./assets/images/icons/svgsprit.svg#chevron-right"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <h3><span>Web</span> Website design</h3>
+                  </div>
+                </div>
+                <div class="btn-link-wrap">
+                  <a href="#" class="btn-link btn-lg secondary">Read More <svg class="icon" width="23" height="15">
+                    <use xlink:href="./assets/images/icons/svgsprit.svg#arrow-right"></use>
+                  </svg></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="portfolio-box">
+                <div class="img-box">
+                  <img src="./assets/images/portfolio-1.jpg" alt="portfolio">
+                  <div class="overlay">
+                    <div class="btn-wrap">
+                      <a href="#" class="btn-arrow">
+                        <svg class="icon" width="14" height="23">
+                          <use xlink:href="./assets/images/icons/svgsprit.svg#chevron-right"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <h3><span>Web</span> Website design</h3>
+                  </div>
+                </div>
+                <div class="btn-link-wrap">
+                  <a href="#" class="btn-link btn-lg secondary">Read More <svg class="icon" width="23" height="15">
+                    <use xlink:href="./assets/images/icons/svgsprit.svg#arrow-right"></use>
+                  </svg></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="portfolio-box">
+                <div class="img-box">
+                  <img src="./assets/images/portfolio-1.jpg" alt="portfolio">
+                  <div class="overlay">
+                    <div class="btn-wrap">
+                      <a href="#" class="btn-arrow">
+                        <svg class="icon" width="14" height="23">
+                          <use xlink:href="./assets/images/icons/svgsprit.svg#chevron-right"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <h3><span>Web</span> Website design</h3>
+                  </div>
+                </div>
+                <div class="btn-link-wrap">
+                  <a href="#" class="btn-link btn-lg secondary">Read More <svg class="icon" width="23" height="15">
+                    <use xlink:href="./assets/images/icons/svgsprit.svg#arrow-right"></use>
+                  </svg></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="portfolio-box">
+                <div class="img-box">
+                  <img src="./assets/images/portfolio-1.jpg" alt="portfolio">
+                  <div class="overlay">
+                    <div class="btn-wrap">
+                      <a href="#" class="btn-arrow">
+                        <svg class="icon" width="14" height="23">
+                          <use xlink:href="./assets/images/icons/svgsprit.svg#chevron-right"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <h3><span>Web</span> Website design</h3>
+                  </div>
+                </div>
+                <div class="btn-link-wrap">
+                  <a href="#" class="btn-link btn-lg secondary">Read More <svg class="icon" width="23" height="15">
+                    <use xlink:href="./assets/images/icons/svgsprit.svg#arrow-right"></use>
+                  </svg></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   
+    <!-- portfolio -->
+
+    <!-- why choose -->
+    <div class="section home why-choose">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="content-box">
+            <div class="title">
+              <div class="sub-title" data-aos="fade-up">Why Choose</div>
+              <h2 class="h2" data-aos="fade-up" data-aos-delay="100">We're here to help 
+                your Business</h2>
+            </div>
+              <div class="box" data-aos="fade-up">
+                <h3>Outsourced digital Businesses</h3>
+                <p>Lorem Ipsum is simply free text available in your not 
+                  dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="box" data-aos="fade-up">
+                <h3>Better Strategy With Quality Business</h3>
+                <p>Lorem Ipsum is simply free text available in your not 
+                  dummy text of the printing and typesetting industry.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="img-box" data-aos="zoom-in">
+              <img src="./assets/images/why-choose.jpg" alt="img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   
+    <!-- why choose -->   
 
     <!--footer-->
     <?php include("include/footer.php"); ?>
