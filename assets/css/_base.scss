@@ -120,7 +120,7 @@ h6,
 	margin: 0;
 	padding: 0;
 	font-weight: 700;
-	line-height: 1.5;
+	line-height: 1.1;
 	color: #212425;
 }
 
@@ -169,15 +169,69 @@ h6,
 }
 
 .slick-arrow {
-	width: 84px;
-	height: 84px;
-	display: grid;
-	place-items: center;
-	border: 0;
-	color: $white;
-	background: rgba($secondary, 0.6);
-	&:is(:hover, :focus, :active) {
+	&.stl-1 {
+		width: 84px;
+		height: 84px;
+		display: grid;
+		place-items: center;
+		border: 0;
 		color: $white;
-		background: $secondary;
+		background: rgba($secondary, 0.6);
+		&:is(:hover, :focus, :active) {
+			color: $white;
+			background: $secondary;
+		}
 	}
+	&.stl-2 {
+		color: $white;
+		background: none;
+		margin: 0 10px;
+		width: auto;
+		height: auto;
+		padding: 5px 3px;
+		border: 0;
+		.icon {
+			width: 33px;
+			height: 23px;
+		}
+	}
+	&.stl-3 {
+		width: 50px;
+		height: 50px;
+		color: $primary;
+		background: none;
+		border: 2px solid $primary;
+		@include border-radius(4px);
+		&:hover {
+			color: $white;
+			background: $primary;
+		}
+	}
+}
+
+.bullet ol {
+	counter-reset: counter;
+}
+
+.bullet :is(ul, ol) li {
+	padding: 0 0 20px 20px;
+}
+
+.bullet > ul li {
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='9' viewBox='0 0 8 9'%3E%3Cpath id='Polygon_2' data-name='Polygon 2' d='M4.5,0,9,8H0Z' transform='translate(8) rotate(90)' fill='%212529'/%3E%3C/svg%3E%0A")
+		no-repeat top 11px left;
+}
+
+.bullet > ol li {
+	padding-left: 20px;
+	position: relative;
+	counter-increment: counter;
+}
+
+.bullet > ol li::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: counter(counter) ". ";
+	color: $dark-900;
 }

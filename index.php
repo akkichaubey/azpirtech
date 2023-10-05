@@ -10,12 +10,12 @@
     <!-- header -->
     <!-- hero banner -->
     <div class="hero-banner">
-      <button class="slick-arrow home-prev">
+      <button class="slick-arrow stl-1 home-prev">
         <svg class="icon" width="24" height="39">
           <use xlink:href="./assets/images/icons/svgsprit.svg#chevron-left"></use>
         </svg>
       </button>
-      <button class="slick-arrow home-next">
+      <button class="slick-arrow stl-1 home-next">
         <svg class="icon" width="24" height="39">
           <use xlink:href="./assets/images/icons/svgsprit.svg#chevron-right"></use>
         </svg>
@@ -211,14 +211,15 @@
         </div>
       </div>
       <div class="container">
-        <div class="slider-wrap">
+        <div class="slider-wrap" data-aos="fade-up">
           <div class="arrow-wrap">
-            <button class="arrow portfolio-prev">
+            <button class="slick-arrow stl-2 portfolio-prev">
               <svg class="icon" width="33" height="23">
                 <use xlink:href="./assets/images/icons/svgsprit.svg#arrow-left"></use>
               </svg>
             </button>
-            <button class="arrow portfolio-next">
+            <span>/</span>
+            <button class="slick-arrow stl-2 portfolio-next">
               <svg class="icon" width="33" height="23">
                 <use xlink:href="./assets/images/icons/svgsprit.svg#arrow-right"></use>
               </svg>
@@ -250,7 +251,7 @@
             <div class="item">
               <div class="portfolio-box">
                 <div class="img-box">
-                  <img src="./assets/images/portfolio-1.jpg" alt="portfolio">
+                  <img src="./assets/images/portfolio-2.jpg" alt="portfolio">
                   <div class="overlay">
                     <div class="btn-wrap">
                       <a href="#" class="btn-arrow">
@@ -272,7 +273,7 @@
             <div class="item">
               <div class="portfolio-box">
                 <div class="img-box">
-                  <img src="./assets/images/portfolio-1.jpg" alt="portfolio">
+                  <img src="./assets/images/portfolio-3.jpg" alt="portfolio">
                   <div class="overlay">
                     <div class="btn-wrap">
                       <a href="#" class="btn-arrow">
@@ -350,7 +351,148 @@
         </div>
       </div>
     </div>   
-    <!-- why choose -->   
+    <!-- why choose -->
+
+    <!-- why choose -->  
+
+    <!-- testimonials -->   
+    <div class="section testimonials" style="background-image: url(./assets/images/testimonials-pattern.png);">
+      <div class="container">
+        <div class="title">
+          <div class="sub-title" data-aos="fade-up">Our testimonials</div>
+          <h2 class="h2" data-aos="fade-up" data-aos-delay="100">What they’re saying</h2>
+        </div>
+        <div class="slider-wrap">
+          <button class="slick-arrow stl-3 testimonial-prev">
+            <svg class="icon" width="24" height="39">
+              <use xlink:href="./assets/images/icons/svgsprit.svg#prev-icon"></use>
+            </svg>
+          </button>
+          <button class="slick-arrow stl-3 testimonial-next">
+            <svg class="icon" width="24" height="39">
+              <use xlink:href="./assets/images/icons/svgsprit.svg#next-icon"></use>
+            </svg>
+          </button>
+          <div class="testimonials-slider" data-aos="fade-up">
+            <div class="item">
+              <div class="testimonial">
+                <div class="author-img">
+                  <img src="./assets/images/testimonials-1.jpg" alt="img">
+                </div>
+                <div class="qoute-icon">
+                  <img src="./assets/images/icons/qoute-icon.png" alt="icon">
+                </div>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <span class="author-name h4">Paul Smith </span>
+                <span class="designation">Chief Executive Officer</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial">
+                <div class="author-img">
+                  <img src="./assets/images/testimonials-2.jpg" alt="img">
+                </div>
+                <div class="qoute-icon">
+                  <img src="./assets/images/icons/qoute-icon.png" alt="icon">
+                </div>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <span class="author-name h4">Rob Smith </span>
+                <span class="designation">Chief Executive Officer</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial">
+                <div class="author-img">
+                  <img src="./assets/images/testimonials-1.jpg" alt="img">
+                </div>
+                <div class="qoute-icon">
+                  <img src="./assets/images/icons/qoute-icon.png" alt="icon">
+                </div>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <span class="author-name h4">Paul Smith </span>
+                <span class="designation">Chief Executive Officer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- testimonials --> 
+
+    <!-- testimonials -->   
+      <div class="section home blog">
+        <div class="container">
+          <div class="title">
+            <div class="sub-title" data-aos="fade-up">Direct from the blog</div>
+            <h2 class="h2" data-aos="fade-up" data-aos-delay="100">Latest News & Articles</h2>
+          </div>
+          <div class="blog-list">
+            <ul class="row">
+              <li class="col-lg-4 col-md-6">
+                <div class="blog-box" data-aos="fade-up">
+                  <div class="blog-img">
+                    <img src="./assets/images/blog-1.jpg" alt="img">
+                  </div>
+                  <div class="blog-info">
+                    <ul class="meta">
+                      <li>06 May 2021</li>
+                      <li>2 Comment</li>
+                    </ul>
+                    <h3 class="blog-title"><a href="#">Our strategy to create a low advantage</a></h3>
+                    <p>Lorem ipsum dolor sit amet, conse elit sed do eiusm od tempor ut simply free labore. </p>
+                    <div class="btn-link-wrap">
+                  <a href="#" class="btn-link primary">Read More <svg class="icon" width="16" height="11">
+                    <use xlink:href="./assets/images/icons/svgsprit.svg#arrow-right"></use>
+                  </svg></a>
+                </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-lg-4 col-md-6">
+                <div class="blog-box" data-aos="fade-up">
+                  <div class="blog-img">
+                    <img src="./assets/images/blog-1.jpg" alt="img">
+                  </div>
+                  <div class="blog-info">
+                    <ul class="meta">
+                      <li>06 May 2021</li>
+                      <li>2 Comment</li>
+                    </ul>
+                    <h3 class="blog-title"><a href="#">Our strategy to create a low advantage</a></h3>
+                    <p>Lorem ipsum dolor sit amet, conse elit sed do eiusm od tempor ut simply free labore. </p>
+                    <div class="btn-link-wrap">
+                  <a href="#" class="btn-link primary">Read More <svg class="icon" width="16" height="11">
+                    <use xlink:href="./assets/images/icons/svgsprit.svg#arrow-right"></use>
+                  </svg></a>
+                </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-lg-4 col-md-6">
+                <div class="blog-box" data-aos="fade-up">
+                  <div class="blog-img">
+                    <img src="./assets/images/blog-1.jpg" alt="img">
+                  </div>
+                  <div class="blog-info">
+                    <ul class="meta">
+                      <li>06 May 2021</li>
+                      <li>2 Comment</li>
+                    </ul>
+                    <h3 class="blog-title"><a href="#">Our strategy to create a low advantage</a></h3>
+                    <p>Lorem ipsum dolor sit amet, conse elit sed do eiusm od tempor ut simply free labore. </p>
+                    <div class="btn-link-wrap">
+                  <a href="#" class="btn-link primary">Read More <svg class="icon" width="16" height="11">
+                    <use xlink:href="./assets/images/icons/svgsprit.svg#arrow-right"></use>
+                  </svg></a>
+                </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    <!-- testimonials -->   
 
     <!--footer-->
     <?php include("include/footer.php"); ?>

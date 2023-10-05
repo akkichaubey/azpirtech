@@ -44,9 +44,9 @@ jQuery('.portfolio-slider').slick({
 	infinite: true,
 	slidesToShow: 3,
   slidesToScroll: 1,
-	// speed: 900,
-	// autoplay: true,
-	// autoplaySpeed: 3000,
+	speed: 900,
+	autoplay: true,
+	autoplaySpeed: 3000,
 	pauseOnHover:false,
 	prevArrow: jQuery('.portfolio-prev'),
 	nextArrow: jQuery('.portfolio-next'),
@@ -71,7 +71,33 @@ jQuery('.portfolio-slider').slick({
       }
     }
   ]
+});
 
+jQuery('.testimonials-slider').slick({
+	infinite: true,
+	slidesToShow: 2,
+  slidesToScroll: 1,
+	speed: 900,
+	// autoplay: true,
+	// autoplaySpeed: 3000,
+	// pauseOnHover:false,
+	prevArrow: jQuery('.testimonial-prev'),
+	nextArrow: jQuery('.testimonial-next'),
+
+	responsive: [
+		{
+      breakpoint: 900,
+      settings: {
+        slidesToShow: 2,
+      }
+    },
+    {
+      breakpoint: 577,
+      settings: {
+        slidesToShow: 1,
+      }
+    }
+  ]
 });
 
 

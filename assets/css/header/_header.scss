@@ -120,7 +120,7 @@
 
     &.sticky {
       header {
-        margin: -45.9px 0 0;
+        margin: -48.9px 0 0;
       }
       .head-logo {
         a {
@@ -144,7 +144,7 @@
     }
     &.sticky {
       header {
-        margin: -46px 0 0;
+        margin: -49px 0 0;
       }
       .head-logo {
         a {
@@ -170,7 +170,7 @@
     }
     &.sticky {
       header {
-        margin: -33.9px 0 0;
+        margin: -36.6px 0 0;
       }
       .head-logo {
         a {
@@ -205,6 +205,7 @@
       }
     }
     .btn-menu {
+      display: inline-flex;
       button {
         border: 0;
         background: none;
