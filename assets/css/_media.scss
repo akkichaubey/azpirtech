@@ -59,6 +59,26 @@
   .blog-single {
     padding: 70px 0;
   }
+  .contact {
+    padding: 70px 0;
+    .title {
+      h2 {
+        font-size: 55px;
+      }
+    }
+    .contact-info {
+      ul {
+        li {
+          &:not(:last-child) {
+            padding: 0 0 50px;
+          }
+        }
+      }
+    }
+  }
+  .map {
+    padding: 0 0 70px;
+  }
 }
 
 @include breakpoint(max, 991) {
@@ -141,6 +161,30 @@
   }
   .blog-single {
     padding: 50px 0;
+  }
+  .contact {
+    padding: 50px 0;
+    .title {
+      h2 {
+        font-size: 35px;
+      }
+    }
+    .contact-info {
+      ul {
+        li {
+          &:not(:last-child) {
+            padding: 0 0 40px;
+          }
+        }
+      }
+    }
+    .contact-form {
+      padding: 30px;
+      margin: 32px 0 0;
+    }
+  }
+  .map {
+    padding: 0 0 50px;
   }
 }
 
@@ -343,5 +387,35 @@
     .search-title {
       font-size: 24px;
     }
+  }
+  .contact {
+    padding: 40px 0;
+    .title {
+      h2 {
+        font-size: 35px;
+      }
+    }
+    .contact-info {
+      padding: 20px 0 0;
+      ul {
+        li {
+          &:not(:last-child) {
+            padding: 0 0 30px;
+          }
+          a {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    .contact-form {
+      padding: 20px;
+      .input-group {
+        padding: 10px 18px;
+      }
+    }
+  }
+  .map {
+    padding: 0 0 40px;
   }
 }
